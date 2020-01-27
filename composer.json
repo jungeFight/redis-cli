@@ -1,5 +1,5 @@
 {
-    "name": "sunjun/redis-cli",
+    "name": "wizarot/redis-cli",
     "description": "redis 命令行工具",
     "license": "MIT",
     "require": {
