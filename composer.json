@@ -1,12 +1,22 @@
 {
+    "name": "sunjun/redis-cli",
+    "description": "redis 命令行工具",
+    "license": "MIT",
     "require": {
         "symfony/console": "^3.4"
     },
-	"autoload": {
-	 "psr-4": {
-	  "Console\\": "src"
-	 },
-	 "classmap": ["src"]
-	 }
-
+    "autoload": {
+        "psr-4": {
+            "Console\\": "src"
+        },
+        "classmap": [
+            "src"
+        ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
